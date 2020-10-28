@@ -1,9 +1,9 @@
 package dnspod
 
 import (
+	dnspod "github.com/biu7/libdns-dnspod"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	dnspod "github.com/libdns/dnspod"
 )
 
 // Provider wraps the provider implementation as a Caddy module.
